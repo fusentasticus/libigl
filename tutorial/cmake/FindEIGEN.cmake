@@ -66,6 +66,7 @@ else ()
       ${CMAKE_INSTALL_PREFIX}/include
       ${KDE4_INCLUDE_DIR}
 	  ${PROJECT_SOURCE_DIR}/../../../Eigen
+    ${PROJECT_SOURCE_DIR}/../../Eigen # sibling to libigl
 	  $ENV{DevLibraries}/Eigen
       PATH_SUFFIXES eigen3 eigen
     )

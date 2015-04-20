@@ -26,6 +26,8 @@ FIND_LIBRARY( GLFW_LIBRARIES NAMES glfw glfw3
     ${PROJECT_SOURCE_DIR}/../external/glfw/src
     ${PROJECT_SOURCE_DIR}/../../external/glfw/lib/x64
     ${PROJECT_SOURCE_DIR}/../external/glfw/lib/x64
+    ${PROJECT_SOURCE_DIR}/../external/glfw/src/Release
+    ${PROJECT_SOURCE_DIR}/../../external/glfw/src/Release
     /usr/local
     /usr/X11
     /usr
